@@ -1,7 +1,7 @@
 package com.prime;
 import java.util.Scanner;
 public class Prime {
-	public static void Prime(int range)
+	public static void PrimeN(int range)
 	{
 		System.out.print("Prime Numbers are: ");
 		int count;
@@ -25,6 +25,6 @@ public class Prime {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the range of prime numbers: ");
 		int range = sc.nextInt();
-		Prime(range);
+		PrimeN(range);
 	}
 }
